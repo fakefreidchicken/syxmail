@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+#    alicloud:
+#      access-key: LTAI5tByRw7euKKUdzwuRtB5
+#      secret-key: c1fizXz71YvRRZ3NOGIU8F6iT551Xe
+#      oss:
+#        endpoint: oss-cn-shanghai.aliyuncs.com
+  application:
+    name: mail-third-party
+server:
+  port: 30000
